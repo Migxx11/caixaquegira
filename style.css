@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(112, 22, 22);
+}
+
+h1 {
+    color: rgb(0, 42, 78);
+    background-color: azure;
+}
+
+h1:hover {
+    background-color: black;
+    color: orchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} /* pseudo classe é uma palavra chave adicionada ao  seletor que define o estilo de um elemento quando ele está em um estado especifico */
+
+/* HOVER significa SOBRE, ou seja quando o mouse está SOBRE o elemento ele muda */
+
+
+
+h2:active {
+    color: darkorange;
+    background-color: mediumpurple;
+}
+
+#miguel {
+    width: 100%;
+    height: 400px;
+    background-color: gold;
+}
+
+.nuggets {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    background-color: greenyellow;
+    display: inline-block;
+    margin-left: 160px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*tranform - transforma o elemento
+
+
+scale () - altera o tamanho (escala) do elemento
+
+translate() move um elemento em sua posição atual nos eixos
+*/
+.nuggets:active {
+    background-color: saddlebrown;
+    color: forestgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: rotatex(20rad);
+    transition: 1s;
+}
